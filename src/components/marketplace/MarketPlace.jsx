@@ -102,9 +102,9 @@ const MarketPlace = () => {
             whileInView={"animate"}
             viewport={{ once: true }}
             variants={variantMarketPlace}
+            key={i}
           >
             <Link
-              key={i}
               target="blank"
               href={e.link}
               className="cursor-pointer 
