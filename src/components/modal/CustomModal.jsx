@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { MdOutlineClose } from "react-icons/md";
 import { motion } from "framer-motion";
-import { marketplaceModal } from "@/helper";
+import { formatRupiah, marketplaceModal } from "@/helper";
 
 const CustomModal = ({
   handleClick,
@@ -74,7 +74,7 @@ const CustomModal = ({
             <div className="flex gap-2">
               <p className="basis-1/4">Harga</p>
               <p className="">:</p>
-              <p className="font-semibold basis-3/4 w-full">Rp {price}</p>
+              <p className="font-semibold basis-3/4 w-full">{formatRupiah(price)}</p>
             </div>
             <div className="flex gap-2">
               <p className="basis-1/4">Deskripsi</p>

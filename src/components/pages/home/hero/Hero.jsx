@@ -32,7 +32,7 @@ const Hero = () => {
     >
       <div
         className="flex flex-col justify-center items-center md:items-start
-        gap-10 bg-primary pb-10 pt-24 px-5 lg:pl-20 sm:basis-1/2"
+        gap-10 bg-primary pb-10 pt-28 px-5 lg:pl-20 sm:basis-1/2"
       >
         <AnimatedText
           text={"Cara Pembuatan Obat Tradisional Yang Baik"}
